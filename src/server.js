@@ -9,7 +9,7 @@ app.use(cors());
 dotenv.config();
 const port = process.env.PORT || 3000;
 
-app.use("/tutorial", tutorialRouter);
+app.use("/tutorials", tutorialRouter);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
